@@ -1,3 +1,6 @@
+// console.log("SUPABASE URL:", process.env.NEXT_PUBLIC_SUPABASE_URL);
+// console.log("SUPABASE KEY:", process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
+
 import React from "react";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
@@ -6,6 +9,9 @@ import "./globals.css";
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
+
+// console.log("SUPABASE URL:", process.env.NEXT_PUBLIC_SUPABASE_URL);
+// console.log("SUPABASE KEY:", process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
 
 export const metadata: Metadata = {
   title: "Slice & Co. | Order Delivery & Pickup",
